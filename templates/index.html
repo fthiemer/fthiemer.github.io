@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+    <title>N8W1nDs Blog/Portfolio</title>
+    <meta name="description" content="Index of my Blog/Portfolio">
+    <meta name="author" content="Frederick Thiemer">
+{% endblock %}
+
+{% block body %} 
+<h2>N8W1nDs Blog/Portfolio</h2>
+<a href="{{ url_for('about') }}">About</a>
+<a href="{{ url_for('blog') }}">Blog</a>
+<a href="{{ url_for('inspirations') }}">Inspirations</a>
+<a href="{{ url_for('knowledge_base') }}">Knowledge Base</a>
+<a href="{{ url_for('projects') }}">Projects</a>
+{% endblock %}
+
